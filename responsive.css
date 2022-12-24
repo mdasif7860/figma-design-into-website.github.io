@@ -1,0 +1,26 @@
+@media screen and (max-width: 810px) {
+    .header-img {
+        display: none;
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .header-content p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .active-icon{
+        display: block !important;
+    }
+    .all-items{
+        display: none !important;
+    }
+}
